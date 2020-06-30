@@ -1,0 +1,98 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2020-06-25T17:19:51.975Z",
+    "__export_source": "insomnia.desktop.app:v2020.2.2",
+    "resources": [{
+        "_id": "req_32d888abddfd4affbc67c43ef0d2a3d9",
+        "authentication": {},
+        "body": {
+            "mimeType": "multipart/form-data",
+            "params": [{
+                "description": "",
+                "id": "pair_c373dd3edd1249a0ad4879e20a4522f8",
+                "name": "device_id",
+                "value": "1"
+            }, {
+                "description": "",
+                "disabled": false,
+                "fileName": "C:\\Users\\user\\Downloads\\descarga.jpg",
+                "id": "pair_788757a33cd34c84b4a902a8da58c7fe",
+                "name": "image",
+                "type": "file",
+                "value": ""
+            }]
+        },
+        "created": 1593093009334,
+        "description": "",
+        "headers": [{
+            "id": "pair_9f2f9ea657f0447495e9d20389dc4d30",
+            "name": "Content-Type",
+            "value": "multipart/form-data"
+        }],
+        "isPrivate": false,
+        "metaSortKey": -1593093009334,
+        "method": "POST",
+        "modified": 1593105313586,
+        "name": "Image",
+        "parameters": [],
+        "parentId": "fld_7956a56cb9ad476f819028f6f162b7c2",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "localhost:4000/image",
+        "_type": "request"
+    }, {
+        "_id": "fld_7956a56cb9ad476f819028f6f162b7c2",
+        "created": 1593105297492,
+        "description": "",
+        "environment": {},
+        "environmentPropertyOrder": null,
+        "metaSortKey": -1593105297492,
+        "modified": 1593105297492,
+        "name": "Image Upload",
+        "parentId": "wrk_4c4a5254252d474a9c0f792b8f9ad3e6",
+        "_type": "request_group"
+    }, {
+        "_id": "wrk_4c4a5254252d474a9c0f792b8f9ad3e6",
+        "created": 1593026975687,
+        "description": "",
+        "modified": 1593105555788,
+        "name": "Image Uploader App",
+        "parentId": null,
+        "scope": null,
+        "_type": "workspace"
+    }, {
+        "_id": "env_a090eb72052e0e851166b7cb822bfa113a38d157",
+        "color": null,
+        "created": 1593026975754,
+        "data": {},
+        "dataPropertyOrder": null,
+        "isPrivate": false,
+        "metaSortKey": 1593026975754,
+        "modified": 1593026975754,
+        "name": "Base Environment",
+        "parentId": "wrk_4c4a5254252d474a9c0f792b8f9ad3e6",
+        "_type": "environment"
+    }, {
+        "_id": "jar_a090eb72052e0e851166b7cb822bfa113a38d157",
+        "cookies": [],
+        "created": 1593026975766,
+        "modified": 1593026975766,
+        "name": "Default Jar",
+        "parentId": "wrk_4c4a5254252d474a9c0f792b8f9ad3e6",
+        "_type": "cookie_jar"
+    }, {
+        "_id": "spc_63720a49755a4da3b2c04088c39a0e5a",
+        "contentType": "yaml",
+        "contents": "",
+        "created": 1593026975689,
+        "fileName": "Insomnia",
+        "modified": 1593026975689,
+        "parentId": "wrk_4c4a5254252d474a9c0f792b8f9ad3e6",
+        "_type": "api_spec"
+    }]
+}
